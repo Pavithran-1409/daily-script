@@ -1,1 +1,2 @@
-Appium-Python-Client
+- name: Install dependencies
+  run: pip install -r requirements.txt
