@@ -5,6 +5,7 @@ from appium.options.android import UiAutomator2Options
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from appium.webdriver.common.appiumby import AppiumBy
+import sys
 
 # For W3C actions
 from selenium.webdriver.common.action_chains import ActionChains
@@ -44,4 +45,7 @@ try:
     print("Session closed successfully")
 
 except Exception as e:
+
+    except Exception as e:
     print(f"Error occurred: {str(e)}")
+    sys.exit(1)  # <-- Add this line
