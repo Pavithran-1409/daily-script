@@ -46,6 +46,6 @@ try:
 
 except Exception as e:
 
-    except Exception as e:
     print(f"Error occurred: {str(e)}")
     sys.exit(1)  # <-- Add this line
+
