@@ -4,7 +4,7 @@ name: Daily Appium Script
 on:
   workflow_dispatch: # Allows manual run
   schedule:
-    - cron: '51 9 * * *' # Runs daily at 3:21 PM IST (09:51 UTC)
+    - cron: '51 10 * * *' # Runs daily at 3:21 PM IST (09:51 UTC)
 
 jobs:
   run-appium-script:
